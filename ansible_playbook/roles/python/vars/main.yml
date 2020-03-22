@@ -1,0 +1,6 @@
+---
+user_name: vagrant
+group_name: vagrant
+home_dir: /home/vagrant
+
+install_python_version: 3.8.2
