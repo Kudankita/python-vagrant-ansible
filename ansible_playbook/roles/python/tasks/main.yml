@@ -18,6 +18,10 @@
       - tk-dev
       - zlibc
 
+- name: タイムゾーンを東京に設定
+  timezone:
+    name: Asia/Tokyo
+
 - block:
     - name: pyenvの存在チェック
       command: test -x {{ home_dir }}/.pyenv/bin/pyenv
